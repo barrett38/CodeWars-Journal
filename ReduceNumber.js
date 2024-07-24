@@ -17,6 +17,11 @@ function digitalRoot(n) {
   }
   return n;
 }
+// Running function
+console.log(digitalRoot(16));
+console.log(digitalRoot(942));
+console.log(digitalRoot(132189));
+console.log(digitalRoot(493193));
 
 // Prompt in the console
 rl.question("Enter a non-negative integer: ", (answer) => {
